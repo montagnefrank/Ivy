@@ -1,0 +1,16 @@
+USUARIO  ACCION  TABLA  ID
+javier  INICIO SESION
+20  UPDATE  Usuarios  21
+21  UPDATE  Usuarios  21
+javier  INICIO SESION
+20  UPDATE  Usuarios  21
+javier  INICIO SESION
+20  UPDATE  Usuarios  21
+javier  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION
+burton  INICIO SESION

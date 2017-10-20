@@ -4,6 +4,9 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+dev/
+nbproject/
+user_guide/
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/

@@ -1,0 +1,361 @@
+.binicio{
+    background: url(../images/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#pwd-container{
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+
+.form-links {
+    text-align: center;
+    margin-top: 1em;
+
+}
+.form-links a {
+    color: #000;
+}
+
+.my-error-class {
+    color:red;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.modal-header{
+    background-color : rgba(149, 214, 0, 0.54);
+    color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.alert-warning1 {
+    color: #fff;
+    background-color: red;
+    border-color: #faebcc;
+}
+
+.selected{
+    background-color: #95d600;
+    color:#000;
+    cursor: pointer;
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+
+/*este es para la nueva ventana modal del plugin custobox*/
+.modal-demo {
+    background-color: #FFF;
+    width: 600px;
+    border: #000 solid 1px;
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px black;
+    text-align: left;
+    display: none;
+}
+.text {
+    padding: 0 20px 20px 20px;
+}
+h4 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    font-family: 'Dosis', sans-serif;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}
+.title {
+    padding: 10px 20px 15px 20px;
+    line-height: 18px;
+    font-size: 18px;
+    border-bottom: #CCC solid 1px;
+    color: #000;
+}
+.foot{
+    padding: 10px 20px 15px 20px;
+    line-height: 18px;
+    font-size: 18px;
+    border-top: #CCC solid 1px;
+    text-align: right;
+}
+
+
+/////////para e form de login*/
+/*=== 3. Text Outside the Box ===*/
+.etc-login-form {
+    color: #919191;
+    padding: 10px 20px;
+}
+.etc-login-form p {
+    margin-bottom: 5px;
+}
+/*=== 4. Main Form ===*/
+.login-form-1 {
+    max-width: 300px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.main-login-form {
+    position: relative;
+}
+.login-form-1 .form-control {
+    border: 0;
+    box-shadow: 0 0 0;
+    border-radius: 0;
+    background: transparent;
+    color: #555555;
+    padding: 7px 0;
+    font-weight: bold;
+    height:auto;
+}
+.login-form-1 .form-control::-webkit-input-placeholder {
+    color: #999999;
+}
+.login-form-1 .form-control:-moz-placeholder,
+.login-form-1 .form-control::-moz-placeholder,
+.login-form-1 .form-control:-ms-input-placeholder {
+    color: #999999;
+}
+.login-form-1 .form-group {
+    margin-bottom: 0;
+    border-bottom: 2px solid #efefef;
+    padding-right: 20px;
+    position: relative;
+}
+.login-form-1 .form-group:last-child {
+    border-bottom: 0;
+}
+.login-group {
+    background: #ffffff;
+    color: #999999;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.login-group-checkbox {
+    padding: 5px 0;
+}
+/*=== 5. Login Button ===*/
+.login-form-1 .login-button {
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    background: #ffffff;
+    color: #999999;
+    padding: 11px 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    transition: all ease-in-out 500ms;
+}
+.login-form-1 .login-button:hover {
+    color: #555555;
+    transform: rotate(450deg);
+}
+.login-form-1 .login-button.clicked {
+    color: #555555;
+}
+.login-form-1 .login-button.clicked:hover {
+    transform: none;
+}
+.login-form-1 .login-button.clicked.success {
+    color: #2ecc71;
+}
+.login-form-1 .login-button.clicked.error {
+    color: #e74c3c;
+}
+/*=== 6. Form Invalid ===*/
+label.form-invalid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    display: block;
+    margin-top: -25px;
+    padding: 7px 9px;
+    background: #777777;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 11px;
+}
+label.form-invalid:after {
+    top: 100%;
+    right: 10px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: transparent;
+    border-top-color: #777777;
+    border-width: 6px;
+}
+/*=== 7. Form - Main Message ===*/
+.login-form-main-message {
+    background: #ffffff;
+    color: #999999;
+    border-left: 3px solid transparent;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    height: 0;
+    padding: 0 20px 0 17px;
+    opacity: 0;
+    transition: all ease-in-out 200ms;
+}
+.login-form-main-message.show {
+    height: auto;
+    opacity: 1;
+    padding: 10px 20px 10px 17px;
+}
+.login-form-main-message.success {
+    border-left-color: #2ecc71;
+}
+.login-form-main-message.error {
+    border-left-color: #e74c3c;
+}
+
+/* hover style just for information */
+label:hover:before {
+    border: 1px solid #f6f6f6 !important;
+}
+
+/*=== 9. Misc ===*/
+.logo {
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxx*/
+.login-container{
+    position: relative;
+    width: 400px;
+    margin: 250px auto;
+    padding: 20px 40px 40px;
+    text-align: center;
+    background: #b3d8f1;
+    border: 1px solid #ccc;
+}
+
+#output{
+    position: absolute;
+    width: 300px;
+    top: -75px;
+    left: 0;
+    color: #fff;
+}
+
+.login-container::before,.login-container::after{
+    content: "";
+    position: absolute;
+    width: 100%;height: 100%;
+    top: 3.5px;left: 0;
+    background: #fff;
+    z-index: -1;
+    -webkit-transform: rotateZ(4deg);
+    -moz-transform: rotateZ(4deg);
+    -ms-transform: rotateZ(4deg);
+    border: 1px solid #ccc;
+
+}
+
+.login-container::after{
+    top: 5px;
+    z-index: -2;
+    -webkit-transform: rotateZ(-2deg);
+    -moz-transform: rotateZ(-2deg);
+    -ms-transform: rotateZ(-2deg);
+
+}
+
+.profile-img-card {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+
+}
+
+.kv-avatar .file-preview-frame,.kv-avatar .file-preview-frame:hover {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+}
+.kv-avatar .file-input {
+    display: table-cell;
+    max-width: 220px;
+}
+
+#side-menu {
+    font-size: x-large;
+    text-align: -webkit-center;
+}
+
+nav {
+    height: 128px;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        margin-top: 164px!important;
+    }
+}
+
+.navbar-top-links {
+    margin-top: 64px;
+}
+
+a {
+    color: #00a2e3!important;
+}
+
+.navbar-top-links {
+    font-size: x-large;
+}
+#headlogo {
+    height: 100px; 
+    padding-bottom: 5px; 
+    float: left;
+}
+
+@media (max-width: 600px) {
+    #headlogo {
+        height: 50px;
+    }
+}

@@ -1,0 +1,45 @@
+<?php
+  $config["admin"]["main_tabs"]=array(
+    "Administrador"=>array(
+            "Clientes"=>array('cont'=>'clientes','icon'=>'fa-group'),
+            "Proveedor"=>array('cont'=>'proveedor','icon'=>'fa-truck'),
+            "Productos"=>array('cont'=>'productos','icon'=>'fa-cubes'),
+            "Ventas"=>array('cont'=>'ventas','icon'=>'fa-dollar'),
+            "Plan de Cuentas"=>array('cont'=>'planes','icon'=>'fa-info-circle'),
+            "Facturas"=>array('cont'=>'PADRE','icon'=>'fa-file-text-o',
+                            'hijos'=>array(
+                                    array('nombre'=> 'Facturas Ventas','cont'=>'ventas/factura_ventas','icon'=>'fa-leaf'),
+                                    array('nombre'=>'Pendientes de Cobro', 'cont'=>'ventas/pendientes_cobro','icon'=>'fa-leaf'))
+            ),
+        
+            "Retenciones"=>array('cont'=>'ventas/retenciones','icon'=>'fa-minus-circle'),
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye'),
+            "Usuarios"=>array('cont'=>'usuarios','icon'=>'fa-user'),
+            "Reportes"=>array('cont'=>'PADRE','icon'=>'fa-hospital-o',
+                               'hijos'=>array(
+                                    array('nombre'=> 'General','cont'=>'ventas/reporteGeneral','icon'=>'fa-leaf'),
+                                    array('nombre'=>'Por Cliente', 'cont'=>'ventas/porCliente','icon'=>'fa-leaf')
+                                )
+             ),
+    ),
+    "Sistemas"=>array(
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye')            
+    ),
+      "Contador"=>array(
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye')   
+    ),
+      "Vendedor"=>array(
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye')   
+    ),
+      "Administrador Grupo"=>array(
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye')   
+    ),
+    "Jefe de Area"=>array(
+            "Pendientes"=>array('cont'=>'pendientes','icon'=>'fa-eye')   
+    )
+   
+);
+  
+  
+  
+?>
