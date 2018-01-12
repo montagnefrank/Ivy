@@ -1,5 +1,5 @@
 ###################
-What is CodeIgniter
+RICKEN BETA
 ###################
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
@@ -11,27 +11,28 @@ you creatively focus on your project by minimizing the amount of code needed
 for a given task.
 
 *******************
-Release Information
+This software is a customized CI work in progress 
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+This repo contains in-development code for future releases. 
 
 **************************
-Changelog and New Features
+The software is in SPANISH
 **************************
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+You can manage your entire Clients and Providers base.
+Inventory Management with multi category indexes
+Buy sell invoice management
+Tasks timeline with delgation of users and group useres to a superior to check the status changes in the task.
+
 
 *******************
 Server Requirements
 *******************
 
-PHP version 5.6 or newer is recommended.
+PHP version 7 or newer is recommended.
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
+It should work on lower versions as well, but we strongly advise you NOT to run
 such old versions of PHP, because of potential security and performance
 issues, as well as missing features.
 
@@ -42,6 +43,8 @@ Installation
 Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
 of the CodeIgniter User Guide.
 
+The .sql file contains all the structure you need to Build your initial database
+
 *******
 License
 *******
@@ -49,18 +52,6 @@ License
 Please see the `license
 agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community IRC <https://webchat.freenode.net/?channels=%23codeigniter>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
 Acknowledgement
@@ -68,3 +59,14 @@ Acknowledgement
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
+We also would like to Thank de BIT Group for the oportunity to develop this custom software for them.
+
+***************
+Disclaimer
+***************
+Please notice that this is a BETA version, work is still in progress to integrate a full accounting module and HR module as well, this software is intended to become a light weight ERP alternative for small Companies
+
+***************
+kopimi
+***************
+
